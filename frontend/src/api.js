@@ -2,7 +2,7 @@ import axios from "axios"
 import Cookies from "js-cookie";
 import { ACCESS_TOKEN } from "./constants";
 
-const apiUrl = "/choreo-apis/awbo/backend/rest-api-be2/v1.0";
+const apiUrl = "https://smartmobicell-backend-2.onrender.com";
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL : apiUrl,
